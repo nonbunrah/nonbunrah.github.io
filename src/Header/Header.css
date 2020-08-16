@@ -1,0 +1,7 @@
+.alignHeader {
+  display: flex;
+};
+
+.name {
+  background-color: red;
+};
