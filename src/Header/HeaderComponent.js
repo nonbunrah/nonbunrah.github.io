@@ -4,7 +4,7 @@ import linked from '../img/linked.svg';
 import './Header.css';
 
 function HeaderComponent(props) {
-  const { gitLink, profileLink} = props;
+  const { gitLink, profileLink } = props;
 
   return (
     <div className='HeaderComponent'>
