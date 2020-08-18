@@ -1,5 +1,5 @@
 import React from 'react';
-import github from '../img/github.png';
+import github from '../img/github-brands.svg';
 import linked from '../img/linked.svg';
 import './Header.css';
 

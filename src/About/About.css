@@ -1,0 +1,28 @@
+.about {
+  text-align: center;
+}
+
+.about-component {
+  /* padding-top: 10px; */
+  margin: 15px;
+  background: #132C33;
+  color: #FFFFFF;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.tech {
+  text-align: center;
+}
