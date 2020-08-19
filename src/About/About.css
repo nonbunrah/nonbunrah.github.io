@@ -3,10 +3,10 @@
 }
 
 .about-component {
-  /* padding-top: 10px; */
-  margin: 15px;
-  background: #132C33;
-  color: #FFFFFF;
+  padding-top: 20px;
+  margin-top: 10px;
+  background: #E4E7E8;
+  color: #000000;
 }
 
 .row {
@@ -14,6 +14,16 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.about-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-align: center;
+  font-size: 32px;
+  margin: 0 10px;
 }
 
 .column {
@@ -25,4 +35,16 @@
 
 .tech {
   text-align: center;
+}
+
+.logos {
+  width: 20%;
+  height: 20%;
+  color: white;
+}
+
+.express-logo {
+  width: 50%;
+  height: 10%;
+  justify-content: right;
 }
