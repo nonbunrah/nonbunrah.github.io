@@ -23,12 +23,25 @@ function AboutComponent() {
         </div>
         <div className='column'>
           <h2 className='tech'>Web Dev Technologies That I Use</h2>
-          <img className='logos' src={html} alt='html' />
-          <img className='logos' src={css} alt='css' />
-          <img className='logos' src={js} alt='javascript' />
-          <img className='logos' src={node} alt='node' />
-          <img className='logos' src={logo} alt='react' />
-          <img className='logos' src={sql} alt='sql' />
+          <div>
+            <img className='logos' src={html} alt='html' />
+            <img className='logos' src={css} alt='css' />
+            <p className='html-caption'>HTML</p> 
+            <p className='css-caption'>CSS</p>
+          </div>
+          <div>
+            <img className='logos' src={js} alt='javascript' />
+            <img className='logos' src={node} alt='node' />
+            <p className='js-caption'>JavaScript</p> 
+            <p className='node-caption'>Node.js and Express.js</p>
+          </div>
+          <div>
+            <img className='logos' src={logo} alt='react' />
+            <img className='logos' src={sql} alt='sql' />
+            <p className='react-caption'>React</p> 
+            <p className='sql-caption'>SQL</p>
+          </div>
+       
         </div>
       </div>
     </div>
