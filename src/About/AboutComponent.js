@@ -6,7 +6,6 @@ import js from '../img/js-logo.svg';
 import node from '../img/node-logo.svg';
 import logo from '../img/react-logo.svg';
 import sql from '../img/sql-logo.svg';
-import express from '../img/ExpressJS.png';
 
 function AboutComponent() {
   return (
@@ -23,14 +22,13 @@ function AboutComponent() {
         </p>
         </div>
         <div className='column'>
-          <h2 className='tech'>Technologies</h2>
+          <h2 className='tech'>Web Dev Technologies That I Use</h2>
           <img className='logos' src={html} alt='html' />
           <img className='logos' src={css} alt='css' />
           <img className='logos' src={js} alt='javascript' />
           <img className='logos' src={node} alt='node' />
           <img className='logos' src={logo} alt='react' />
           <img className='logos' src={sql} alt='sql' />
-          <img className='express-logo' src={express} alt='express' />
         </div>
       </div>
     </div>
