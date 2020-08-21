@@ -27,11 +27,15 @@
 }
 
 .white-logo {
-  cursor: pointer;
   width: 30px;
   height: 30px;
   margin: 15px 40px;
   padding: 10px;
   border: 2px solid #FFFFFF; 
   border-radius: 28%;
+}
+
+.white-logo:hover {
+  background-color: #005D7E;
+  cursor: pointer;
 }
