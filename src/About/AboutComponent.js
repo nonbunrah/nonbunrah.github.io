@@ -33,7 +33,7 @@ function AboutComponent() {
             <img className='logos' src={js} alt='javascript' />
             <img className='logos' src={node} alt='node' />
             <p className='js-caption'>JavaScript</p> 
-            <p className='node-caption'>Node.js and Express.js</p>
+            <p className='node-caption'>Node.js<br /> and<br /> Express.js</p>
           </div>
           <div>
             <img className='logos' src={logo} alt='react' />

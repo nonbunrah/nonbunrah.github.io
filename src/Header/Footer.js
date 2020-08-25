@@ -7,7 +7,6 @@ function Footer() {
           position: "absolute",
           width: "100%",
           height: "40px",
-          fontSize: "18px",
           color: "black",
           marginTop: "20px",
           paddingTop: "20px",
