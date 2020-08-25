@@ -13,16 +13,22 @@ function AboutComponent() {
       <h1 className='about'>
         About Me
       </h1>
+      <p className='about-line'>___________________________________</p>
       <div className='row'>
         <div className='about-column'>
-        <p>
-          Hi! I am RJ Bamrah, and I am a<br /> Full Stack Software Engineer from the Bay Area.<br /> My passion for web 
-          development was sparked<br /> when I realized that I could create something<br /> by my own hand. There is 
-          nothing more I love<br /> than creating functional websites!
+        <h2 className='background'>Background</h2>
+        <p className='background-line'>_____________________________</p>
+        <p className='about-description'>
+          Hi! I am RJ Bamrah, a Full Stack Software Engineer from the Bay Area and I LOVE making websites! My passion for web 
+           development was sparked when I realized that I could create something by my own hand. <br /><br />
+           Some background about me, I graduated from the University of Nevada - Reno with a Bachelors degree in Information Systems
+           and a minor in Cyber Security. 
+           {/*There is nothing more I love than creating functional websites! <br />  */}
         </p>
         </div>
         <div className='column'>
           <h2 className='tech'>Web Dev Technologies That I Use</h2>
+          <p className='tech-line'>________________________________________________________</p>
           <div>
             <img className='logos' src={html} alt='html' />
             <img className='logos' src={css} alt='css' />

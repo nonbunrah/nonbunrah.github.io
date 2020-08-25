@@ -1,11 +1,29 @@
 .about {
   text-align: center;
+  font-size: 48px;
+}
+
+.about-line {
+  margin-top: -3%;
+  text-align: center;
+}
+
+.tech-line {
+  margin-top: -3%;
+  text-align: center;
+}
+
+.about-description {
+  margin: 0 80px;
+  font-size: 24px;
+  text-align: left;
+  word-wrap: normal;
 }
 
 .about-component {
   padding-top: 20px;
   margin-top: 10px;
-  background: #E4E7E8;
+  background: #E4E7E8; 
   color: #000000;
 }
 
@@ -24,12 +42,10 @@
   text-align: center;
   font-size: 32px;
   margin: 0 10px;
-  background-color: lightblue;
 }
 
 .column {
   flex: 1;
-  background-color: lightpink;
 }
 
 .logo-row {
@@ -41,50 +57,61 @@
 }
 
 .logos {
-  width: 30%;
-  height: 30%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: -30px;
+  width: 20%;
+  height: 20%;
+  margin-left: 15%;
+  margin-right: 12%;
+  margin-bottom: -25px;
 }
 
 .html-caption {
-  font-size: 32px;
-  margin-left: 19%;
+  font-size: 24px;
+  margin-left: 21%;
   display: inline-block;
   padding-bottom: 20px;
 }
 
 .css-caption {
-  font-size: 32px;
+  font-size: 24px;
   display: inline-block;
   margin-left: 39%;
   padding-bottom: 20px;
 }
 
 .js-caption {
-  font-size: 32px;
+  font-size: 24px;
   display: inline-block;
-  margin-left: 15%;
+  margin-left: 17%;
   padding-bottom: 20px;
 }
 
 .node-caption {
-  font-size: 32px;
+  font-size: 24px;
   display: inline-block;
-  margin-left: 27%;
+  margin-left: 31%;
   padding-bottom: 20px;
   text-align: center;
 }
 
 .react-caption {
-  font-size: 32px;
+  font-size: 24px;
   display: inline-block;
-  margin-left: 19%;
+  margin-left: 21%;
 }
 
 .sql-caption {
-  font-size: 32px;  
+  font-size: 24px;  
   display: inline-block;
-  margin-left: 42%;
+  margin-left: 39%;
+}
+
+.background {
+  font-size: 24px;
+  text-align: center;
+}
+
+.background-line {
+  margin-top: -4%;
+  font-size: 18px;
+  font-style: thin;
 }
