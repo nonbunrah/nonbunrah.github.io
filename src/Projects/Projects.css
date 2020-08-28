@@ -6,3 +6,19 @@
   display: block;
   border: 2px solid black;
 }
+
+.fourth-project-pic:hover {
+  cursor: pointer;
+  transition: 2s;
+}
+
+.trans {
+  width: 100px;
+  height: 100px;
+  background:red;
+  transition: width 2s;
+}
+
+.trans:hover {
+  width: 300px;
+}

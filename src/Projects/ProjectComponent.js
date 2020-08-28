@@ -10,9 +10,10 @@ function ProjectComponent() {
         alt='fourth-project-pic'
         className='fourth-project-pic'
       ></img>
-      <div className='hidden-text'>
+      {/* <div className='hidden-text'>
         <h1>Full Stack Calendar Scheduling App</h1>
-      </div>
+      </div> */}
+      <div className='trans'></div>
     </div>
   )
 }
