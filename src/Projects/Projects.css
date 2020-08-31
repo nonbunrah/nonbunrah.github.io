@@ -5,11 +5,27 @@
   width: 728px;
 }
 
+.bcounter {
+  position: absolute;
+  top: 110px;
+  right: 595px;
+  width: 190px;
+}
+
 .projectComponent {
   background: #182428;
 }
 
+.projectComponent2 {
+  background: #005D7E;
+}
+
 .imac {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bcounter-imac {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -20,7 +36,6 @@
 }
 
 .fourth-project-pic:hover {
-  cursor: pointer;
   transition: 2s;
 }
 
