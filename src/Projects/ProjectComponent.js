@@ -3,6 +3,7 @@ import './Projects.css';
 import fourthProject from '../img/fourthProject.png';
 import bcounter from '../img/bcounter.png';
 import imac from '../img/iMac.png';
+import firstProject from '../img/firstproject.png';
 
 function ProjectComponent() {
   return (
@@ -20,18 +21,32 @@ function ProjectComponent() {
         ></img>
       </div>
       <div className='projectComponent2'>
-      <div className='imac-with-project'>
-        <img
-          src={imac}
-          alt='imac'
-          className='bcounter-imac'
-        ></img>
-        <img
-          src={bcounter}
-          alt='bcounter-pic'
-          className='bcounter'
-        ></img>
+        <div className='imac-with-project'>
+          <img
+            src={imac}
+            alt='imac'
+            className='imac'
+          ></img>
+          <img
+            src={bcounter}
+            alt='bcounter-pic'
+            className='bcounter'
+          ></img>
+        </div>
       </div>
+      <div className='projectComponent3'>
+        <div className='imac-with-project'>
+          <img
+            src={imac}
+            alt='imac'
+            className='imac'
+          ></img>
+          <img
+            src={firstProject}
+            alt='first-project-pic'
+            className='first-project-pic'
+          ></img>
+        </div>
       </div>
       {/* <div className='hidden-text'>
         <h1>Full Stack Calendar Scheduling App</h1>

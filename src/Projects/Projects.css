@@ -19,13 +19,11 @@
 .projectComponent2 {
   background: #005D7E;
 }
+.projectComponent3 {
+  background: #132C33;
+}
 
 .imac {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.bcounter-imac {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -33,6 +31,13 @@
 
 .imac-with-project {
   position: relative;
+}
+
+.first-project-pic {
+  position: absolute;
+  top: 120px;
+  right: 336px;
+  width: 728px;
 }
 
 .fourth-project-pic:hover {
