@@ -9,6 +9,7 @@ function ProjectComponent() {
   return (
     <div className='projectComponent'>
       <div className='imac-with-project'>
+        <div className='first-overlay'></div>
         <img
           src={imac}
           alt='imac'
