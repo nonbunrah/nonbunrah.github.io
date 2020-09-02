@@ -1,8 +1,9 @@
 .fourth-project-pic {
   position: absolute;
-  top: 15%;
-  right: 23.82%;
-  width: 728px;
+  top: 12.7%;
+  right: 24%;
+  width: 725px;
+  height: 410px;
 }
 
 .first-overlay {
@@ -15,15 +16,20 @@
   background: red;
 }
 
+.hey {
+  text-align: right;
+}
+
 .first-overlay:hover {
   width: 500px;
 }
 
 .bcounter {
   position: absolute;
-  top: 110px;
+  top: 12.7%;
   right: 595px;
   width: 190px;
+  height: 410px;
 }
 
 .projectComponent {
@@ -43,15 +49,20 @@
   margin-right: auto;
 }
 
+/* .imac:hover {
+   background: red;
+} */
+
 .imac-with-project {
   position: relative;
 }
 
 .first-project-pic {
   position: absolute;
-  top: 120px;
-  right: 336px;
-  width: 728px;
+  top: 12.7%;
+  right: 24%;
+  width: 725px;
+  height: 410px;
 }
 
 .fourth-project-pic:hover {
