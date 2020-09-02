@@ -11,21 +11,30 @@ import firstProject from '../img/firstproject.png';
 
 function ProjectComponent() {
   return (
-    <div className='projectComponent'>
-      <div className='imac-with-project'>
-        <div className='first-overlay'>
-          <h1 className='hey'>hey</h1>
+    <div className='allProjectComponent'>
+      <div className='projectComponent1'>
+        <div className='imac-with-project'>
+          <div className='first-overlay'>
+          <br /><br /><br /><br /><br /><br /><br /><br />
+            <h1 className='title-application'>Full Stack Calendar Scheduling Application</h1>
+            <p className='title-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div className='images'>
+            <img
+              src={imac}
+              alt='imac'
+              className='imac'
+            ></img>
+            <img
+              src={fourthProject}
+              alt='fourth-project-pic'
+              className='fourth-project-pic'
+            ></img>
+          </div>
         </div>
-        <img
-          src={imac}
-          alt='imac'
-          className='imac'
-        ></img>
-        <img
-          src={fourthProject}
-          alt='fourth-project-pic'
-          className='fourth-project-pic'
-        ></img>
       </div>
       <div className='projectComponent2'>
         <div className='imac-with-project'>
@@ -55,10 +64,6 @@ function ProjectComponent() {
           ></img>
         </div>
       </div>
-      {/* <div className='hidden-text'>
-        <h1>Full Stack Calendar Scheduling App</h1>
-      </div> */}
-      {/* <div className='trans'></div> */}
     </div>
   )
 }

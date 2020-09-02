@@ -10,19 +10,29 @@
   width: 100px;
   height: 740px;
   margin-top: 35px;
-  transition: width 2s;
+  transition: width 1s;
   position: absolute;
   /* background: rgba(24, 36, 40, 0.95); */
   background: red;
   z-index: 99 !important;
+  color: white;
+  overflow-x: hidden;
+  /* display: none; */
 }
 
-.first-overlay:hover {
+/* .first-overlay:hover {
   width: 800px;
+  color: #FFFFFF;
+} */
+
+.title-application {
+  text-align: center;
+  justify-content: center;
+  position: absolute;
 }
 
-.hey {
-  text-align: right;
+.title-description {
+  margin-top: 20%;
 }
 
 .bcounter {
@@ -33,7 +43,7 @@
   height: 410px;
 }
 
-.projectComponent {
+.allProjectComponent {
   background: #182428;
 }
 
@@ -58,6 +68,10 @@
   position: relative;
 }
 
+.projectComponent1 .imac-with-project:hover {
+  background: lightgreen;
+}
+
 .first-project-pic {
   position: absolute;
   top: 12.7%;
@@ -68,15 +82,4 @@
 
 .fourth-project-pic:hover {
   transition: 2s;
-}
-
-.trans {
-  width: 100px;
-  height: 100px;
-  background:red;
-  transition: width 2s;
-}
-
-.trans:hover {
-  width: 300px;
 }
