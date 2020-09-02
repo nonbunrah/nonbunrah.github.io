@@ -6,7 +6,7 @@ import imac from '../img/iMac.png';
 import imacBCounter from '../img/iMacBCounter.png';
 import firstProject from '../img/firstproject.png';
 
-// need to get div to cover fourth project pic
+// TODO: 
 // need to get div to move on imac pic hover
 
 function ProjectComponent() {

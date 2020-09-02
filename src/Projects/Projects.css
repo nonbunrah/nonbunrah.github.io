@@ -14,14 +14,15 @@
   position: absolute;
   /* background: rgba(24, 36, 40, 0.95); */
   background: red;
+  z-index: 99 !important;
+}
+
+.first-overlay:hover {
+  width: 800px;
 }
 
 .hey {
   text-align: right;
-}
-
-.first-overlay:hover {
-  width: 500px;
 }
 
 .bcounter {
