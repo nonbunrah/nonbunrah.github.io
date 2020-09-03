@@ -1,6 +1,6 @@
 .fourth-project-pic {
   position: absolute;
-  top: 12.7%;
+  top: 21%;
   right: 24%;
   width: 725px;
   height: 410px;
@@ -17,7 +17,7 @@
   z-index: 99 !important;
   color: white;
   overflow-x: hidden;
-  /* display: none; */
+  display: none;
 }
 
 /* .first-overlay:hover {
@@ -68,10 +68,6 @@
   position: relative;
 }
 
-.projectComponent1 .imac-with-project:hover {
-  background: lightgreen;
-}
-
 .first-project-pic {
   position: absolute;
   top: 12.7%;
@@ -82,4 +78,15 @@
 
 .fourth-project-pic:hover {
   transition: 2s;
+}
+.projects {
+  padding-top: 10px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.projects-line {
+  margin-top: -20px;
+  color: #FFFFFF;
+  text-align: center;
 }
