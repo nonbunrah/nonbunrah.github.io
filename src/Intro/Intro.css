@@ -39,3 +39,7 @@
   background-color: #005D7E;
   cursor: pointer;
 }
+
+.scroll {
+  scroll-behavior: smooth;
+}

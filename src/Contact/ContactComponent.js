@@ -25,7 +25,7 @@ export default class MyForm extends React.Component {
         <br />
         <label>Name:</label>
         <br />
-        <input type='name' name='name' />
+        <input id='contact-id' type='name' name='name' />
         <br /><br />
         <label>Email:</label>
         <br />
@@ -34,7 +34,7 @@ export default class MyForm extends React.Component {
         <label>Message:</label>
         <br />
         <textarea className='message' type="text" name="message" />
-        <br />
+        <br /><br />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
         <br /><br /><br /><br />

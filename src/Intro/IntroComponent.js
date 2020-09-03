@@ -36,11 +36,13 @@ function IntroComponent(props) {
         alt='white-linkedin-logo'
         onClick={profileLink}
       ></img>
-      <img
-        className='white-logo'
-        src={mailwhite}
-        alt='white=mail-icon'
-      ></img>
+      <a className='scroll' href='#contact-id' style={{scrollBehavior: 'smooth'}}>
+        <img
+          className='white-logo'
+          src={mailwhite}
+          alt='white=mail-icon'
+        ></img>
+      </a>
     </div>
   )
 }
