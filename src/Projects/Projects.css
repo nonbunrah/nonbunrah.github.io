@@ -9,11 +9,11 @@
 .first-overlay {
   display: flex;
   justify-content: center;
-  left: -100%;
+  left: -70%;
   width: 800px;
   height: 740px;
   margin-top: 30px;
-  transition: all 500ms ease-in-out;
+  transition: all 1000ms ease-in-out;
   position: absolute;
   background: rgba(24, 36, 40, 0.95);
   z-index: 99 !important;
@@ -21,19 +21,54 @@
   overflow-x: hidden;
 }
 
-/* .first-overlay:hover {
+.second-overlay {
+  display: flex;
+  justify-content: center;
+  left: -70%;
   width: 800px;
-  color: #FFFFFF;
-} */
+  height: 740px;
+  margin-top: 30px;
+  transition: all 1000ms ease-in-out;
+  position: absolute;
+  background: rgba(0, 93, 126, 0.95);
+  z-index: 99 !important;
+  color: white;
+  overflow-x: hidden;
+}
+
+.third-overlay {
+  display: flex;
+  justify-content: center;
+  left: -70%;
+  width: 800px;
+  height: 740px;
+  margin-top: 30px;
+  transition: all 1000ms ease-in-out;
+  position: absolute;
+  background: rgba(19, 44, 51, 0.95);
+  z-index: 99 !important;
+  color: white;
+  overflow-x: hidden;
+}
 
 .title-application {
-  text-align: center;
-  justify-content: center;
+  font-weight: bold;
+  margin-top: 15%;
+  font-size: 36px;
+  text-align: left;
+  justify-content: left;
   position: absolute;
 }
 
+.title-tech {
+  font-size: 22px;
+  position: absolute;
+  margin-top: 25%;
+  padding: 0 2rem;
+}
+
 .title-description {
-  margin-top: 20%;
+  margin-top: 35%;
   padding: 0 2rem;
 }
 
@@ -79,7 +114,8 @@
   transition: 2s;
 }
 .projects {
-  padding-top: 10px;
+  font-size: 48px;
+  padding-top: 15px;
   color: #FFFFFF;
   text-align: center;
 }

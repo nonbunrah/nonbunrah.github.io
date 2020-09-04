@@ -6,13 +6,7 @@ import imac from '../img/iMac.png';
 import imacBCounter from '../img/iMacBCounter.png';
 import firstProject from '../img/firstproject.png';
 
-// TODO: 
-// need to get div to move on imac pic hover
-
 function ProjectComponent() {
-
-  // style = object 
-    // object is open? 
 
   const [isOpen, setOpen] = useState(false);
   console.log(isOpen);
@@ -29,6 +23,7 @@ function ProjectComponent() {
             >
           <br /><br /><br /><br /><br /><br /><br /><br />
             <h1 className='title-application'>Full Stack Calendar Scheduling Application</h1>
+            <p className='title-tech'>Technologies used: React.js, Node.js, Express.js, SQL</p>
             <p className='title-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -57,20 +52,57 @@ function ProjectComponent() {
       </div>
       <div className='projectComponent2'>
         <div className='imac-with-project'>
-          <img
-            src={imacBCounter}
-            alt='imac'
-            className='imac'
-          ></img>
-          <img
-            src={bcounter}
-            alt='bcounter-pic'
-            className='bcounter'
-          ></img>
+          <div className='second-overlay' style={isOpen ? {left: "0"} : {}} 
+              onMouseEnter={() => setOpen(true)}
+              onMouseLeave={() => setOpen(false)}
+              >
+            <br /><br /><br /><br /><br /><br /><br /><br />
+              <h1 className='title-application'>BCounter</h1>
+              <p className='title-tech'>Technologies used: React.js, Node.js, Express.js, SQL</p>
+              <p className='title-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div className='images'
+            // onMouseEnter={() => setOpen(true)}
+            // onMouseLeave={() => setOpen(false)}
+            >
+            <img
+              src={imacBCounter}
+              alt='imac'
+              className='imac'
+              onMouseEnter={() => setOpen(true)}
+              onMouseLeave={() => setOpen(false)}
+            ></img>
+            <img
+              src={bcounter}
+              alt='bcounter-pic'
+              className='bcounter'
+              onMouseEnter={() => setOpen(true)}
+              onMouseLeave={() => setOpen(false)}
+            ></img>
+          </div>
         </div>
       </div>
       <div className='projectComponent3'>
         <div className='imac-with-project'>
+        <div className='third-overlay' style={isOpen ? {left: "0"} : {}} 
+            onMouseEnter={() => setOpen(true)}
+            onMouseLeave={() => setOpen(false)}
+            >
+          <br /><br /><br /><br /><br /><br /><br /><br />
+            <h1 className='title-application'>Car Quiz Front End Project</h1>
+            <p className='title-tech'>Technologies used: React.js, Node.js, Express.js, SQL</p>
+            <p className='title-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div className='images'
+          // onMouseEnter={() => setOpen(true)}
+          // onMouseLeave={() => setOpen(false)}
+          >
           <img
             src={imac}
             alt='imac'
@@ -81,6 +113,7 @@ function ProjectComponent() {
             alt='first-project-pic'
             className='first-project-pic'
           ></img>
+          </div>
         </div>
       </div>
     </div>

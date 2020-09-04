@@ -20,7 +20,7 @@ export default class MyForm extends React.Component {
         action="https://formspree.io/mdowrqed"
         method="POST"
       >
-        <h1 className='contact'>Contact Me!</h1>
+        <h1 className='contact'>Get in touch with me!</h1>
         <p className='contact-line'>___________________________________</p>
         <br />
         <label>Name:</label>
