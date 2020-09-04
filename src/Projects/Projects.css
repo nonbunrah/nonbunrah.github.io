@@ -1,7 +1,7 @@
 .fourth-project-pic {
   position: absolute;
-  top: 13%;
-  right: 24%;
+  top: 10.4%;
+  right: 24.6%;
   width: 725px;
   height: 410px;
 }
@@ -12,7 +12,7 @@
   left: -100%;
   width: 800px;
   height: 740px;
-  margin-top: 50px;
+  margin-top: 30px;
   transition: all 500ms ease-in-out;
   position: absolute;
   background: rgba(24, 36, 40, 0.95);
@@ -39,8 +39,8 @@
 
 .bcounter {
   position: absolute;
-  top: 12.7%;
-  right: 595px;
+  top: 10%;
+  right: 610px;
   width: 190px;
   height: 410px;
 }
@@ -60,6 +60,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px 0;
 }
 
 .imac-with-project {
@@ -68,8 +69,8 @@
 
 .first-project-pic {
   position: absolute;
-  top: 12.7%;
-  right: 24%;
+  top: 10.4%;
+  right: 24.6%;
   width: 725px;
   height: 410px;
 }
