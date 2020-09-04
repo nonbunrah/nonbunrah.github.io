@@ -1,23 +1,24 @@
 .fourth-project-pic {
   position: absolute;
-  top: 21%;
+  top: 13%;
   right: 24%;
   width: 725px;
   height: 410px;
 }
 
 .first-overlay {
-  width: 100px;
+  display: flex;
+  justify-content: center;
+  left: -100%;
+  width: 800px;
   height: 740px;
-  margin-top: 35px;
-  transition: width 1s;
+  margin-top: 50px;
+  transition: all 500ms ease-in-out;
   position: absolute;
-  /* background: rgba(24, 36, 40, 0.95); */
-  background: red;
+  background: rgba(24, 36, 40, 0.95);
   z-index: 99 !important;
   color: white;
   overflow-x: hidden;
-  display: none;
 }
 
 /* .first-overlay:hover {
@@ -33,6 +34,7 @@
 
 .title-description {
   margin-top: 20%;
+  padding: 0 2rem;
 }
 
 .bcounter {
@@ -59,10 +61,6 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-/* .imac:hover {
-   background: red;
-} */
 
 .imac-with-project {
   position: relative;
