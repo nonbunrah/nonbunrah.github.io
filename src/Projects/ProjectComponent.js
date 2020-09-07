@@ -9,7 +9,6 @@ import firstProject from '../img/firstproject.png';
 function ProjectComponent() {
 
   const [isOpen, setOpen] = useState(false);
-  console.log(isOpen);
 
   return (
     <div className='allProjectComponent'>
@@ -107,11 +106,15 @@ function ProjectComponent() {
             src={imac}
             alt='imac'
             className='imac'
+            onMouseEnter={() => setOpen(true)}
+            onMouseLeave={() => setOpen(false)}
           ></img>
           <img
             src={firstProject}
             alt='first-project-pic'
             className='first-project-pic'
+            onMouseEnter={() => setOpen(true)}
+            onMouseLeave={() => setOpen(false)}
           ></img>
           </div>
         </div>
