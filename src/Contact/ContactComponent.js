@@ -23,12 +23,10 @@ export default class MyForm extends React.Component {
         <h1 className='contact'>Get in touch with me!</h1>
         <p className='contact-line'>___________________________________</p>
         <br />
-        <label>Name:</label>
-        <br />
+        <label>Name: </label>
         <input id='contact-id' type='name' name='name' />
         <br /><br />
-        <label>Email:</label>
-        <br />
+        <label>Email: </label>
         <input type="email" name="email" />
         <br /><br />
         <label>Message:</label>

@@ -8,7 +8,9 @@ import firstProject from '../img/firstproject.png';
 
 function ProjectComponent() {
 
-  const [isOpen, setOpen] = useState(false);
+  const [isOneOpen, setOneOpen] = useState(false);
+  const [isTwoOpen, setTwoOpen] = useState(false);
+  const [isThreeOpen, setThreeOpen] = useState(false);
 
   return (
     <div className='allProjectComponent'>
@@ -16,9 +18,10 @@ function ProjectComponent() {
       <p className='projects-line'>___________________________________</p>
       <div className='projectComponent1' >
         <div className='imac-with-project'> 
-          <div className='first-overlay' style={isOpen ? {left: "0"} : {}} 
-            onMouseEnter={() => setOpen(true)}
-            onMouseLeave={() => setOpen(false)}
+          <div className='first-overlay' 
+            style={isOneOpen ? {left: "0"} : {}} 
+            onMouseEnter={() => setOneOpen(true)}
+            onMouseLeave={() => setOneOpen(false)}
             >
           <br /><br /><br /><br /><br /><br /><br /><br />
             <h1 className='title-application'>Full Stack Calendar Scheduling Application</h1>
@@ -29,6 +32,7 @@ function ProjectComponent() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div className='images'
+          // leave commented
           // onMouseEnter={() => setOpen(true)}
           // onMouseLeave={() => setOpen(false)}
           >
@@ -36,24 +40,25 @@ function ProjectComponent() {
               src={imac}
               alt='imac'
               className='imac'
-              onMouseEnter={() => setOpen(true)}
-              onMouseLeave={() => setOpen(false)}
+              onMouseEnter={() => setOneOpen(true)}
+              onMouseLeave={() => setOneOpen(false)}
             ></img>
             <img
               src={fourthProject}
               alt='fourth-project-pic'
               className='fourth-project-pic'
-              onMouseEnter={() => setOpen(true)}
-              onMouseLeave={() => setOpen(false)}
+              onMouseEnter={() => setOneOpen(true)}
+              onMouseLeave={() => setOneOpen(false)}
             ></img>
           </div>
         </div>
       </div>
       <div className='projectComponent2'>
         <div className='imac-with-project'>
-          <div className='second-overlay' style={isOpen ? {left: "0"} : {}} 
-              onMouseEnter={() => setOpen(true)}
-              onMouseLeave={() => setOpen(false)}
+          <div className='second-overlay' 
+              style={isTwoOpen ? {left: "0"} : {}} 
+              onMouseEnter={() => setTwoOpen(true)}
+              onMouseLeave={() => setTwoOpen(false)}
               >
             <br /><br /><br /><br /><br /><br /><br /><br />
               <h1 className='title-application'>BCounter</h1>
@@ -64,31 +69,33 @@ function ProjectComponent() {
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div className='images'
-            // onMouseEnter={() => setOpen(true)}
-            // onMouseLeave={() => setOpen(false)}
+            // leave commented
+            // onMouseEnter={() => setTwoOpen(true)}
+            // onMouseLeave={() => setTwoOpen(false)}
             >
             <img
               src={imacBCounter}
               alt='imac'
               className='imac'
-              onMouseEnter={() => setOpen(true)}
-              onMouseLeave={() => setOpen(false)}
+              onMouseEnter={() => setTwoOpen(true)}
+              onMouseLeave={() => setTwoOpen(false)}
             ></img>
             <img
               src={bcounter}
               alt='bcounter-pic'
               className='bcounter'
-              onMouseEnter={() => setOpen(true)}
-              onMouseLeave={() => setOpen(false)}
+              onMouseEnter={() => setTwoOpen(true)}
+              onMouseLeave={() => setTwoOpen(false)}
             ></img>
           </div>
         </div>
       </div>
       <div className='projectComponent3'>
         <div className='imac-with-project'>
-        <div className='third-overlay' style={isOpen ? {left: "0"} : {}} 
-            onMouseEnter={() => setOpen(true)}
-            onMouseLeave={() => setOpen(false)}
+        <div className='third-overlay' 
+            style={isThreeOpen ? {left: "0"} : {}} 
+            onMouseEnter={() => setThreeOpen(true)}
+            onMouseLeave={() => setThreeOpen(false)}
             >
           <br /><br /><br /><br /><br /><br /><br /><br />
             <h1 className='title-application'>Car Quiz Front End Project</h1>
@@ -99,6 +106,7 @@ function ProjectComponent() {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div className='images'
+          // leave commented
           // onMouseEnter={() => setOpen(true)}
           // onMouseLeave={() => setOpen(false)}
           >
@@ -106,15 +114,15 @@ function ProjectComponent() {
             src={imac}
             alt='imac'
             className='imac'
-            onMouseEnter={() => setOpen(true)}
-            onMouseLeave={() => setOpen(false)}
+            onMouseEnter={() => setThreeOpen(true)}
+            onMouseLeave={() => setThreeOpen(false)}
           ></img>
           <img
             src={firstProject}
             alt='first-project-pic'
             className='first-project-pic'
-            onMouseEnter={() => setOpen(true)}
-            onMouseLeave={() => setOpen(false)}
+            onMouseEnter={() => setThreeOpen(true)}
+            onMouseLeave={() => setThreeOpen(false)}
           ></img>
           </div>
         </div>
