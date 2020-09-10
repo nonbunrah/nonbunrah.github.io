@@ -26,7 +26,7 @@ function AboutComponent() {
           I had an interest in programming and after attending General Assembly's Software Engineering Immersive program, 
           my love for programming was sparked! I always want to learn more and more about new technologies in the web dev realm!
           <br /><br />
-          When I'm not coding, you can find me in the gym, playing basketball, or just driving slightly above the speed limit! ;)
+          When I'm not coding, you can find me in the gym, playing basketball, or just enjoying a cruise in my Subaru! ;)
            {/*There is nothing more I love than creating functional websites! <br />  */}
         </p>
         </div>
