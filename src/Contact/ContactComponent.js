@@ -38,6 +38,8 @@ export default class MyForm extends React.Component {
     );
   }
 
+  // for the sake of updating git
+
   submitForm(ev) {
     ev.preventDefault();
     const form = ev.target;
