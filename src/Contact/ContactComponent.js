@@ -20,7 +20,6 @@ export default class MyForm extends React.Component {
         method="POST"
       >
         <h1 className='contact'>Get in touch with me!</h1>
-        <p className='contact-line'>___________________________________</p>
         <br />
         <label>Name: </label>
         <input id='contact-id' type='name' name='name' />

@@ -21,10 +21,11 @@
 }
 
 .about-component {
-  padding-top: 20px;
+  padding-top: 25px;
   margin-top: 10px;
   background: #E4E7E8; 
   color: #000000;
+  margin-bottom: -35px;
 }
 
 .row {
