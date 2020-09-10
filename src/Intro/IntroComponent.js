@@ -5,6 +5,8 @@ import githubwhite from '../img/githubwhite.png';
 import linkedinwhite from '../img/linkedinwhite.png';
 import mailwhite from '../img/mailwhite.png';
 import resume from '../img/resume.png';
+import {BrowserRouter, Route, Link} from 'react-router-dom';
+import resumefile from '../img/portfolio-resume.pdf';
 
 function IntroComponent(props) {
   const { gitLink, profileLink } = props;
@@ -44,13 +46,13 @@ function IntroComponent(props) {
           alt='white=mail-icon'
         ></img>
       </a>
-      <a href='../img/portfolio-resume.pdf' download>
+      <a href={resumefile} download="../portfolio-resume.pdf">
         <img
         className='white-logo'
         src={resume}
         alt='white-resume-logo'
       ></img>
-    </a>
+      </a>
     </div>
   )
 }
