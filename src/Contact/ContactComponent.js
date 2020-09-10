@@ -1,4 +1,3 @@
-// code taken from formspree
 import './Contact.css';
 
 import React from "react";
