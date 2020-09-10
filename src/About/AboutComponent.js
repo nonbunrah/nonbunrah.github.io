@@ -24,7 +24,7 @@ function AboutComponent() {
           Some background about me, I graduated from the University of Nevada - Reno with a Bachelors degree in Information Systems
           and a minor in Cyber Security. I developed my love for data while I was pursuing my bachelors. <br /><br />
           I had an interest in programming and after attending General Assembly's Software Engineering Immersive program, 
-          I had gained a love for programming as well! I'm always want to learn more and more about new technologies in the web dev realm!
+          my love for programming was sparked! I always want to learn more and more about new technologies in the web dev realm!
           <br /><br />
           When I'm not coding, you can find me in the gym, playing basketball, or just driving slightly above the speed limit! ;)
            {/*There is nothing more I love than creating functional websites! <br />  */}
