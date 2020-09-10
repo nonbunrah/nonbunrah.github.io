@@ -19,10 +19,12 @@ function AboutComponent() {
         <h2 className='background'>Background</h2>
         <p className='background-line'>_____________________________</p>
         <p className='about-description'>
-          Hi! I am RJ Bamrah, a Full Stack Software Engineer from the Bay Area and I LOVE making websites! My passion for web 
-           development was sparked when I realized that I could create something by my own hand. <br /><br />
-           Some background about me, I graduated from the University of Nevada - Reno with a Bachelors degree in Information Systems
-           and a minor in Cyber Security. 
+          Hi! I am <b>RJ Bamrah</b>, a Full Stack Software Engineer from the Bay Area and I LOVE making websites! My passion for web 
+          development was sparked when I realized that I could create something by my own hand. <br /><br />
+          Some background about me, I graduated from the University of Nevada - Reno with a Bachelors degree in Information Systems
+          and a minor in Cyber Security. I developed my love for data while I was pursuing my bachelors, but as time went on, I
+          started to gain a love for programming. <br /><br />
+          When I'm not coding, you can find me in the gym, playing basketball, or just driving slightly above the speed limit! ;)
            {/*There is nothing more I love than creating functional websites! <br />  */}
         </p>
         </div>
