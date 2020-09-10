@@ -35,7 +35,7 @@ export default class MyForm extends React.Component {
         <br /><br />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
-        <br /><br /><br /><br />
+        <br /><br /><br />
       </form>
     );
   }

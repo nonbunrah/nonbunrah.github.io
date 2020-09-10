@@ -14,8 +14,8 @@ function ProjectComponent() {
 
   return (
     <div className='allProjectComponent'>
-      <h1 className='projects'>Projects</h1>
-      <p className='projects-line'>___________________________________</p>
+      <h1 className='projects'>Projects I've Created</h1>
+      <p className='projects-line'>__________________________________________________________________</p>
       <div className='projectComponent1' >
         <div className='imac-with-project'> 
           <div className='first-overlay' 
@@ -25,11 +25,9 @@ function ProjectComponent() {
             >
           <br /><br /><br /><br /><br /><br /><br /><br />
             <h1 className='title-application'>Full Stack Calendar Scheduling Application</h1>
-            <p className='title-tech'>Technologies used: React.js, Node.js, Express.js, SQL</p>
-            <p className='title-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className='title-tech'>React.js || Node.js || Express.js || SQL</p>
+            <p className='title-description'>This full stack calendar scheduling application was something I created in effort
+            to mimic any smart phone calendar application. The app lets you create, update, and delete events on specific dates.</p>
           </div>
           <div className='images'
           // leave commented
@@ -62,11 +60,10 @@ function ProjectComponent() {
               >
             <br /><br /><br /><br /><br /><br /><br /><br />
               <h1 className='title-application'>BCounter</h1>
-              <p className='title-tech'>Technologies used: React.js, Node.js, Express.js, SQL</p>
-              <p className='title-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p className='title-tech'>React.js || Node.js || Express.js || SQL</p>
+              <p className='title-description'>BCounter was a project that a group of classmates and I created after we had graduated from 
+              the coding bootcamp. This is a full stack budget tracking application. The user logs an entry and it is categorized by 
+              "needs, wants or savings." On the home page, you can visually see your expenditure via pie chart (Chart.js)! </p>
             </div>
             <div className='images'
             // leave commented
@@ -99,11 +96,10 @@ function ProjectComponent() {
             >
           <br /><br /><br /><br /><br /><br /><br /><br />
             <h1 className='title-application'>Car Quiz Front End Project</h1>
-            <p className='title-tech'>Technologies used: HTML/CSS, JavaScript</p>
-            <p className='title-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className='title-tech'>HTML/CSS || JavaScript</p>
+            <p className='title-description'>This was my first ever project that I'd created with the knowledge of HTML/CSS and JavaScript.
+            I created a quiz that gave you 10 questions about a car I used to own - the 2004 Volkswagen Golf R32. This project was created while
+            I was attending the coding bootcamp. </p>
           </div>
           <div className='images'
           // leave commented
