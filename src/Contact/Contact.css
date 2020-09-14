@@ -2,9 +2,23 @@ form {
   text-align: center;
 }
 
+.forms {
+  font-size: 18px;
+  padding: 10px 10px;
+  width: 50%;
+  border: none;
+}
+
+.hr-class {
+  width: 50%;
+}
+
 .message {
-  width: 600px;
+  width: 50%;
   height: 200px;
+  font-family: Roboto;
+  font-size: 18px;
+  border: none;
 }
 
 .contact {

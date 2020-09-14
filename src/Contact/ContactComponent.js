@@ -21,15 +21,17 @@ export default class MyForm extends React.Component {
       >
         <h1 className='contact'>Get in touch with me!</h1>
         <br />
-        <label>Name: </label>
-        <input id='contact-id' type='name' name='name' />
-        <br /><br />
-        <label>Email: </label>
-        <input type="email" name="email" />
-        <br /><br />
-        <label>Message:</label>
+        {/* <label>Name: </label> */}
+        <hr className='hr-class' />
+        <input id='contact-id' className='forms' type='name' name='name' placeholder='Name'/>
+        <hr className='hr-class' />
+        {/* <label>Email: </label> */}
+        <input className='forms' type="email" name="email"  placeholder='Email'/>
+        <hr className='hr-class' />
+        {/* <label>Message:</label> */}
         <br />
-        <textarea className='message' type="text" name="message" />
+        <textarea className='message' type="text" name="message" placeholder='Message' />
+        <hr className='hr-class' />
         <br /><br />
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
