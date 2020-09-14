@@ -21,15 +21,11 @@ export default class MyForm extends React.Component {
       >
         <h1 className='contact'>Get in touch with me!</h1>
         <br />
-        {/* <label>Name: </label> */}
         <hr className='hr-class' />
         <input id='contact-id' className='forms' type='name' name='name' placeholder='Name'/>
         <hr className='hr-class' />
-        {/* <label>Email: </label> */}
         <input className='forms' type="email" name="email"  placeholder='Email'/>
         <hr className='hr-class' />
-        {/* <label>Message:</label> */}
-        <br />
         <textarea className='message' type="text" name="message" placeholder='Message' />
         <hr className='hr-class' />
         <br /><br />
